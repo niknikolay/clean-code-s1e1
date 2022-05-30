@@ -4,7 +4,7 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
-.aaa {
+.header {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -13,18 +13,18 @@
 .header__description {
   width: 100%;
 }
-.aaa .more_inf {
+.header__details {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
 
-  .aaa { 
+  .header { 
     text-align: center;
   }
 
 }
-.centered-main-page-element {
+.main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -34,7 +34,7 @@
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper {
+.new-task__wrapper {
   display: flex;
 }
 .task-list {
